@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*Style elements for navigation bar*/
+
+.nav{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.6em;
+    padding: 10px;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    width: 100%;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+}
+
+.nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+
+
+
+/*Style elements for all pages*/
+
+body {
+    background-color: #00A5FF;
+    font-size: 1.4em;
+}
+
+h1 {
+    font-family: Didot;
+    text-align: center;
+    color: #FF0000;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: Didot;
+    text-align: center;
+    color: #008000;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: Didot;
+    text-align: center;
+    color: #A00000;
+    font-size: 1.6em;
+}
+
+h6 { 
+    font-family: Brush script MT;
+ }
+
+p {
+    text-align: center;
+    font-size: 2em;
+}
+
+li {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70;
+}
+
+/*media query for tablet*/
+
+@media screen and (min-width: 600px) {
+    #email {
+        display: flex;
+        justify-content: center;
+        font-family: Sans-Serif;
+        position: relative;
+        font-size: 36px;
+    }
+    
+    body {
+          background-color: #00A5FF;
+    }
+
+    h1 {
+        font-family: Didot;
+        text-align: center;
+        color: #FF0000;
+        font-size: 2em;
+    }
+
+    h2 {
+        font-family: Didot;
+        text-align: center;
+        color: #008000;
+        font-size: 2em;
+    }
+
+    h3 {
+        font-family: Didot;
+        text-align: center;
+        color: #A00000;
+        font-size: 1.6em;
+    }
+
+    h6 { 
+        font-family: Brush script MT;
+    }
+
+    p {
+       text-align: center;
+       font-size: 2em;
+    }
+
+    li {
+        text-align: center;
+        font-size: 1.4em;
+    }
+}
+
+
+/*media query for desktop*/
+
+@media screen and (min-width: 992px) {
+    #email {
+        display: flex;
+        justify-content: center;
+        font-family: Sans-Serif;
+        position: relative;
+        font-size: 20px;
+    }
+    h3 {
+        color: #45ff01;
+        font-size: 1.8em;
+    }
+    h4 {
+        color: #888E2D;
+        font-size: 1.5em;
+    }
+    h5 {
+        color: #3053EB;
+        font-size: 1.3em;
+    }
+    
+
+
+
