@@ -29,6 +29,11 @@
   justify-content: center;
 }
 
+#map {
+       height: 940px;
+       width: 100%;
+}
+
 /*Style elements for all pages*/
 
 body {
